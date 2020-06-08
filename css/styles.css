@@ -1,0 +1,242 @@
+/* ---------- Default variables ----------- */
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #222831;
+  font-family: "Balsamiq Sans", cursive;
+  margin: 0 auto 5 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #393e46;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #c3edea;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+img:hover {
+  opacity: 0.9;
+}
+
+b {
+  color: rgb(104, 128, 170);
+}
+
+hr.incline-line {
+  width: 35%;
+  height: 1.5rem;
+  transform: rotate(-3deg);
+  border-color: rgb(104, 128, 170);
+}
+
+hr.incline-line-black {
+  width: 35%;
+  height: 1.5rem;
+  transform: rotate(-3deg);
+  border-color: rgb(0, 0, 0);
+}
+
+/* ---------- Top website ----------- */
+
+.my-nav {
+  background: none;
+  border: 0;
+  border-radius: 0;
+}
+
+.main-container {
+  background: url("../images/brasilia.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding: 0 0 27rem;
+  margin: 0;
+}
+
+.main-container-block {
+  padding-top: 9rem;
+}
+
+.main-description {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  color: #393e46;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+/* ---------- Middle website ----------- */
+
+.middle-container {
+  background-color: #eeeeee;
+  margin: 0 0;
+}
+
+.profile-container1 {
+  padding: 5rem 5% 5rem;
+}
+
+.profile-container2 {
+  padding: 5rem 5% 5rem;
+}
+
+.class-sub-description {
+  padding-top: 5rem;
+}
+
+.sub-description {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.class-photo {
+  align-items: center;
+}
+
+.my-photo {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.profile-skills-container {
+  background-color: #000000;
+  padding: 7rem 5% 7rem;
+}
+
+/*--------------- Education section ----------------*/
+
+.education-container {
+  background-color: #000000;
+  padding: 5rem 5% 5rem;
+  text-align: center;
+}
+
+.education-container-title {
+  padding: 2rem 5% 0rem;
+  color: #eeeeee;
+}
+
+.education-sub-container {
+  padding-top: 5rem;
+}
+
+.education-text {
+  color: #eeeeee;
+}
+
+.education-sub-text {
+  color: #eeeeee;
+  padding-bottom: 5rem;
+}
+
+/*--------------- Radar chart section ----------------*/
+
+.radar-chart-container {
+  background-color: #eeeeee;
+  padding: 5rem 5% 5rem;
+  text-align: center;
+}
+
+.graphSec{
+	/* margin: 5px; */
+	box-shadow: 0 0 10px rgba(173, 176, 180, 0.3);
+  background-color: #ffffff;
+  border-radius: 10%;
+}
+
+/*--------------- Bottom web section ----------------*/
+
+.bottom-container {
+  background-color: rgb(104, 128, 170);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.bottom-container-title {
+  color: #eeeeee;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+}
+
+.button {
+  margin: 15px;
+  background-color: #393e46; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: #364f6b; 
+  color: white;
+}
+
+.footer-link {
+  color: #eeeeee;
+  text-decoration: none;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 1rem;
+  margin: 15px;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+.final-name {
+  color: white;
+  text-decoration: none;
+  margin: 25px;
+}
+
+/*------------------- Button -----------------*/
+
+.button-font {
+  font-family: "Balsamiq Sans";
+  color: #000000;
+}
+
+/*------------------- Navbar -----------------*/
+.nav-links {
+  font-family: "Balsamiq Sans";
+  font-size: 1.2rem;
+}
+
+.nav-brand-name {
+  font-family: "Balsamiq Sans";
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
