@@ -53,6 +53,13 @@ hr.incline-line-black {
   border-color: rgb(0, 0, 0);
 }
 
+hr.incline-line-black-little {
+  width: 15%;
+  height: 1.5rem;
+  transform: rotate(-3deg);
+  border-color: rgb(0, 0, 0);
+}
+
 /* ---------- Top website ----------- */
 
 .my-nav {
@@ -159,9 +166,9 @@ hr.incline-line-black {
   text-align: center;
 }
 
-.graphSec{
-	/* margin: 5px; */
-	box-shadow: 0 0 10px rgba(173, 176, 180, 0.3);
+.graphSec {
+  /* margin: 5px; */
+  box-shadow: 0 0 10px rgba(173, 176, 180, 0.3);
   background-color: #ffffff;
   border-radius: 10%;
 }
@@ -176,6 +183,11 @@ hr.incline-line-black {
 
 .bottom-container-title {
   color: #eeeeee;
+  font-size: 1.5rem;
+}
+
+.bottom-container-links {
+  padding-top: 25px;
 }
 
 .btn {
@@ -185,7 +197,7 @@ hr.incline-line-black {
 
 .button {
   margin: 15px;
-  background-color: #393e46; 
+  background-color: #393e46;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -196,7 +208,7 @@ hr.incline-line-black {
 }
 
 .button:hover {
-  background-color: #364f6b; 
+  background-color: #364f6b;
   color: white;
 }
 
