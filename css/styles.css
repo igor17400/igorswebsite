@@ -189,6 +189,12 @@ hr.incline-line-black-little {
 
 .button-projects-row {
   padding: 5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  margin: 2rem 0;
 }
 
 /*--------------- Bottom web section ----------------*/
@@ -226,15 +232,15 @@ hr.incline-line-black-little {
 }
 
 .button-project {
-  margin: 15px;
-  background-color: rgb(104, 128, 170);;
+  margin: 1.5rem;
+  background-color: rgb(104, 128, 170);
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 1rem 1rem;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
-  border-radius: 12px;
+  font-size: 1rem;
+  border-radius: 0.5rem;
 }
 
 .button:hover {
