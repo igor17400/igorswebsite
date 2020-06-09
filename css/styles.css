@@ -173,6 +173,24 @@ hr.incline-line-black-little {
   border-radius: 10%;
 }
 
+/*--------------- Projects section ----------------*/
+.projects-container {
+  background-color: #000000;
+}
+
+.projects-container-title {
+  padding: 5rem 0 0;
+  color: #eeeeee;
+}
+
+.projects-container-cards {
+  padding: 5rem;
+}
+
+.button-projects-row {
+  padding: 5rem;
+}
+
 /*--------------- Bottom web section ----------------*/
 
 .bottom-container {
@@ -198,6 +216,18 @@ hr.incline-line-black-little {
 .button {
   margin: 15px;
   background-color: #393e46;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.button-project {
+  margin: 15px;
+  background-color: rgb(104, 128, 170);;
   border: none;
   color: white;
   padding: 15px 32px;
