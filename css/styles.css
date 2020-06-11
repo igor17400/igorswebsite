@@ -8,31 +8,28 @@ body {
   height: 100%;
 }
 
-h1 {
-  font-size: 3rem;
-  color: #222831;
-  font-family: "Balsamiq Sans", cursive;
-  margin: 0 auto 5 auto;
-}
-
-h2 {
-  font-size: 2rem;
-  color: #393e46;
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Balsamiq Sans", cursive;
 }
 
-h3 {
-  font-size: 1.5rem;
-  color: #c3edea;
-  font-family: "Balsamiq Sans", cursive;
+h1.white, h2.white, h3.white, h4.white {
+  color: #eeeeee;
+}
+
+h1.black, h2.black, h3.black, h4.black {
+  color: #000000;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
 }
 
-img:hover {
-  opacity: 0.9;
+p.whiteBackground {
+  color: #eeeeee;
 }
 
 b {
@@ -60,6 +57,44 @@ hr.incline-line-black-little {
   border-color: rgb(0, 0, 0);
 }
 
+/* --------- Containers  --------- */
+
+.container-fluid {
+  padding: 7rem 5% 7rem;
+}
+
+.container-fluid.bottom {
+  padding: 3rem 5% 3rem;
+}
+
+.container-fluid.black {
+  background-color: black;
+}
+
+.container-fluid.white {
+  background-color: #eeeeee;
+}
+
+.container-fluid.blue {
+  background-color: rgb(104, 128, 170);
+}
+
+.container-fluid .top {
+  padding: 5rem 0 0;
+}
+
+.container-fluid .bottom {
+  padding: 0 0 5rem;
+}
+
+.container-fluid.main {
+  padding: 0 0 27rem;
+}
+
+.container-fluid .main-block {
+  padding-top: 9rem;
+}
+
 /* ---------- Top website ----------- */
 
 .my-nav {
@@ -68,22 +103,28 @@ hr.incline-line-black-little {
   border-radius: 0;
 }
 
-.main-container {
+.main-container-background {
   background: url("../images/brasilia.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
   height: 100%;
   overflow: hidden;
-  text-align: center;
-  padding: 0 0 27rem;
-  margin: 0;
 }
 
-.main-container-block {
-  padding-top: 9rem;
+@media (max-width: 800px) {
+  .main-container-background {
+    background: url("../images/brasilia.png") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+.main-title {
+  font-size: 3rem;
+  color: #222831;
+  margin: 0 auto 5 auto;
 }
 
 .main-description {
@@ -94,23 +135,6 @@ hr.incline-line-black-little {
 }
 
 /* ---------- Middle website ----------- */
-
-.middle-container {
-  background-color: #eeeeee;
-  margin: 0 0;
-}
-
-.profile-container1 {
-  padding: 5rem 5% 5rem;
-}
-
-.profile-container2 {
-  padding: 5rem 5% 5rem;
-}
-
-.class-sub-description {
-  padding-top: 5rem;
-}
 
 .sub-description {
   width: 100%;
@@ -127,44 +151,7 @@ hr.incline-line-black-little {
   border-radius: 50%;
 }
 
-.profile-skills-container {
-  background-color: #000000;
-  padding: 7rem 5% 7rem;
-}
-
-/*--------------- Education section ----------------*/
-
-.education-container {
-  background-color: #000000;
-  padding: 5rem 5% 5rem;
-  text-align: center;
-}
-
-.education-container-title {
-  padding: 2rem 5% 0rem;
-  color: #eeeeee;
-}
-
-.education-sub-container {
-  padding-top: 5rem;
-}
-
-.education-text {
-  color: #eeeeee;
-}
-
-.education-sub-text {
-  color: #eeeeee;
-  padding-bottom: 5rem;
-}
-
 /*--------------- Radar chart section ----------------*/
-
-.radar-chart-container {
-  background-color: #eeeeee;
-  padding: 5rem 5% 5rem;
-  text-align: center;
-}
 
 .graphSec {
   /* margin: 5px; */
@@ -174,46 +161,11 @@ hr.incline-line-black-little {
 }
 
 /*--------------- Projects section ----------------*/
-.projects-container {
-  background-color: #000000;
-}
-
-.projects-container-title {
-  padding: 5rem 0 0;
-  color: #eeeeee;
-}
-
-.projects-container-cards {
-  padding: 5rem;
-}
-
-.button-projects-row {
-  padding: 5rem;
-  align-items: center;
-  text-align: center;
-}
-
 .card {
   margin: 2rem 0;
 }
 
-/*--------------- Bottom web section ----------------*/
-
-.bottom-container {
-  background-color: rgb(104, 128, 170);
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.bottom-container-title {
-  color: #eeeeee;
-  font-size: 1.5rem;
-}
-
-.bottom-container-links {
-  padding-top: 25px;
-}
-
+/*--------------- Buttons ----------------*/
 .btn {
   color: white;
   text-decoration: none;
@@ -225,7 +177,6 @@ hr.incline-line-black-little {
   border: none;
   color: white;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
   font-size: 16px;
   border-radius: 12px;
@@ -237,7 +188,6 @@ hr.incline-line-black-little {
   border: none;
   color: white;
   padding: 1rem 1rem;
-  text-align: center;
   text-decoration: none;
   font-size: 1rem;
   border-radius: 0.5rem;
@@ -247,6 +197,13 @@ hr.incline-line-black-little {
   background-color: #364f6b;
   color: white;
 }
+
+.button-font {
+  font-family: "Balsamiq Sans";
+  color: #000000;
+}
+
+/*--------------- Footer ----------------*/
 
 .footer-link {
   color: #eeeeee;
@@ -265,13 +222,6 @@ a:hover {
   color: white;
   text-decoration: none;
   margin: 25px;
-}
-
-/*------------------- Button -----------------*/
-
-.button-font {
-  font-family: "Balsamiq Sans";
-  color: #000000;
 }
 
 /*------------------- Navbar -----------------*/
