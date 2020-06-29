@@ -57,6 +57,10 @@ hr.incline-line-black-little {
   border-color: rgb(0, 0, 0);
 }
 
+.invisible {
+  text-indent: -9999px;   
+}
+
 /* --------- Containers  --------- */
 
 .container-fluid {
@@ -209,7 +213,7 @@ hr.incline-line-black-little {
   color: #eeeeee;
   text-decoration: none;
   font-family: "Balsamiq Sans", cursive;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: 15px;
 }
 
