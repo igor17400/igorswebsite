@@ -1,8 +1,8 @@
 // Charts
 let radarCtx = document.getElementById('programming-chart').getContext('2d');
 
-let knowledge = Array.of(75, 50, 65, 55, 70, 80, 80, 50, 35);
-let languages = Array.of('JavaScript', 'Python', 'C', 'Matlab', 'C#', 'HTML', 'CSS', 'SQL', 'Java');
+let knowledge = Array.of(75, 90, 75, 55, 70, 80, 80, 50, 45);
+let languages = Array.of('JavaScript', 'Python', 'C', 'Matlab', 'C#', 'HTML/CSS', 'C++', 'SQL', 'Java');
 
 var options = {
     maintainAspectRatio: true,
